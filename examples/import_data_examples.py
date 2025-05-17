@@ -281,4 +281,4 @@ def demonstrate_all_examples():
     example_5_id_from_filename()
 
 if __name__ == "__main__":
-    demonstrate_all_examples() 
+    demonstrate_all_examples()

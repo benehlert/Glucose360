@@ -51,4 +51,4 @@ def main():
     print(f"Glucose Management Indicator: {features.GMI(patient_data):.1f}%")
 
 if __name__ == "__main__":
-    main() 
+    main()

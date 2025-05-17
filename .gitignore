@@ -63,4 +63,4 @@ venv.bak/
 # Project specific
 *.log
 .DS_Store
-datasets/.DS_Store 
+datasets/.DS_Store
