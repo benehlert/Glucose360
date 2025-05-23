@@ -37,7 +37,7 @@ def daily_plot_all(
     :param events: a DataFrame containing any events to mark on the daily plots, defaults to None
     :type events: 'pandas.DataFrame', optional
     :param save: path of the location where the saved PDF and HTML versions of the plots are saved, defaults to None
-    :type save: str, optional 
+   :type save: str | None, optional
     :param height: the height (in pixels) of the resulting plot(s), defaults to 2000
     :type height: int, optional
     """
@@ -49,7 +49,7 @@ def daily_plot(
    id: str,
    height: int = 2000,
    events: pd.DataFrame = None,
-   save: bool = False,
+   save: str | None = None,
    app: bool = False
 ):
    """Graphs a daily (time-series) plot for the given patient within the given DataFrame. 
@@ -62,7 +62,7 @@ def daily_plot(
     :param events: a DataFrame containing any events to mark on the daily plots, defaults to None
     :type events: 'pandas.DataFrame', optional
     :param save: path of the location where the saved PDF and HTML versions of the plot are saved, defaults to None
-    :type save: str, optional 
+   :type save: str | None, optional
     :param height: the height (in pixels) of the resulting plot, defaults to 2000
     :type height: int, optional
     :param app: boolean indicating whether to return the Plotly figure instead of rendering it (used mainly within the web application), defaults to False
